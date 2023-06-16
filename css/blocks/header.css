@@ -1,0 +1,54 @@
+.header {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.header-nav {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+
+
+.header-nav li + li {
+  margin-left: 48px;
+}
+
+.header-login {
+  margin-left: 48px;
+  display: flex;
+  align-items: center;
+}
+
+a.btn {
+  display: inline-block;
+  text-align: center;
+  height: 43px;
+  line-height: 40px;
+  /* padding-left: 24px;
+  padding-right: 24px; */
+  width: 107px;
+  border: 1px solid black;
+  font-size: 16px;
+  background-color: white;
+}
