@@ -10,6 +10,71 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.none {
+  display: none !important;
+}
+
+.goals {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 157px;
+  background-color: #f4f4f4;
+  min-height: 502px;
+}
+
+.goals-header {
+  display: flex;
+}
+.goals-header-title {
+  display: flex;
+  font-weight: 600;
+  font-size: 64px;
+  
+}
+
+
+.goals-cards-test {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  height: 130px;
+  max-width: 410px;
+}
+
+
+
+.goals-header-head {
+  max-width: 435px;
+}
+
+.goals-card-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 32px;
+}
+.goals-card-text {
+  display: flex;
+  max-width: 323px;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.goals-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.goals-header-content {
+  width: 845px;
+}
+
+img {
+  height: 64px;
+  width: 64px;
+}
 
 
 /* .container-wide {
