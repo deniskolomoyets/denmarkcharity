@@ -1,0 +1,64 @@
+.goals {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 157px;
+    background-color: #f4f4f4;
+    min-height: 502px;
+  }
+  
+  .goals-header {
+    display: flex;
+    
+  }
+  .goals-header-title {
+    display: flex;
+    font-weight: 600;
+    font-size: 64px;
+  }
+  
+  .goals-cards-test {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    max-width: 410px;
+    padding-right: 23px;
+  }
+  
+  .goals-header-head {
+    display: flex;
+    max-width: 435px;
+  }
+  
+  .goals-card-title {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .goals-card-text {
+    display: flex;
+    max-width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .goals-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .goals-header-content {
+    display: flex;
+    width: 845px;
+  }
+  
+  .goals-card-img {
+    padding-right: 23px;
+  }
+  
+  .goals-card-img > img {
+    width: 61px;
+    height: 64px;
+  }
