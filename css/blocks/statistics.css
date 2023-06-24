@@ -1,0 +1,39 @@
+.pipa {
+  padding: 120px 189px;
+}
+
+.stat-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stat-number {
+  font-size: 80px;
+  font-family: Work Sans;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.stat-info {
+  font-size: 32px;
+  font-family: Work Sans;
+}
+
+.stat-block > .block-stat-4 > .opa {
+  opacity: 0.4000000059604645;
+}
+.stat-btn {
+  display: flex;
+  padding-bottom: 32px;
+}
+a.btn-stat {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid var(--new-white, #fff);
+  font-size: 32px;
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+}

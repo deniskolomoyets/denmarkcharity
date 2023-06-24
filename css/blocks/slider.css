@@ -1,103 +1,110 @@
 .slider {
-    background-color: black;
-    color: white;
-  }
-  
-  .cont-contant {
-    /* width: 1440px; */
-    padding: 120px 189px;
-    align-items: flex-start;
-    gap: 120px;
-  }
-  
-  .slider-information {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .slider-test {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 80px;
-    align-self: stretch;
-  }
-  
-  .slider-info-block-one {
-    display: flex;
-    align-items: flex-start;
-    gap: 80px;
-    align-self: stretch;
-    padding-bottom: 80px;
-  }
-  .slider-info-block-two {
-    display: flex;
-    align-items: flex-start;
-    gap: 80px;
-    align-self: stretch;
-  }
-  
-  .slider-header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 64px;
-    font-family: Work Sans;
-    font-weight: 600;
-  }
-  
-  .header-inf {
-    font-size: 32px;
-    font-family: Work Sans;
-    font-weight: 600;
-  }
-  
-  .par-inf {
-    width: 481px;
-    font-size: 20px;
-    font-family: Work Sans;
-  }
-  
-  .sld-inf-1,
-  .sld-inf-2,
-  .sld-inf-3,
-  .sld-inf-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-  }
-  .slider-btn {
-    display: flex;
-    padding-top: 120px;
-  }
-  .slider-first-btn {
-    display: flex;
-  }
-  .slider-second-btn {
-    margin-left: 24px;
-    display: flex;
-    align-items: center;
-  }
-  
-  a.btn-1 {
-    
-    gap: 8px;
-    border: 1px solid var(--new-white, #fff);
-    font-size: 24px;
-    background-color: black;
-    padding: 16px 32px;
-    
-  }
-  a.btn-2 {
-    display: flex;
-    padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    background: var(--new-white, #FFF);
-    font-size: 24px;
-    color: black;
-  }
+  background-color: black;
+  color: white;
+}
+
+.cont-contant {
+  /* width: 1440px; */
+  padding: 120px 189px;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.sld {
+  padding:120px 180px;
+}
+
+.slider-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
+.slider-test {
+  display: flex;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.test-one > .slider-item:first-child {
+  padding-bottom: 80px;
+}
+.test-two > .slider-item:first-child {
+  padding-bottom: 80px;
+}
+
+.slider-info-block-one {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+  padding-bottom: 80px;
+}
+.slider-info-block-two {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 64px;
+  font-family: Work Sans;
+  font-weight: 600;
+  padding-bottom: 80px;
+}
+
+.header-inf {
+  font-size: 32px;
+  font-family: Work Sans;
+  font-weight: 600;
+}
+
+.par-inf {
+  width: 481px;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  min-width: 491px;
+}
+.slider-btn {
+  display: flex;
+  padding-top: 120px;
+}
+.slider-first-btn {
+  display: flex;
+}
+.slider-second-btn {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+a.btn-1 {
+  gap: 8px;
+  border: 1px solid var(--new-white, #fff);
+  font-size: 24px;
+  background-color: black;
+  padding: 16px 32px;
+}
+a.btn-2 {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: var(--new-white, #fff);
+  font-size: 24px;
+  color: black;
+}
