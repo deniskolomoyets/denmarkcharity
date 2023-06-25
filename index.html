@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/blocks/slider.css" />
     <link rel="stylesheet" href="./css/blocks/statistics.css" />
     <link rel="stylesheet" href="./css/blocks/quote.css" />
+    <link rel="stylesheet" href="./css/blocks/payment.css" />
+    <link rel="stylesheet" href="./css/blocks/footer.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +42,7 @@
       </div>
     </header>
     <main>
-      <section class="home none">
+      <section class="home">
         <div class="container">
           <div class="home-content">
             <h1 class="home-heading">Gør 100 gange større forskel med dine donationer</h1>
@@ -72,7 +74,7 @@
         </div>
       </section>
 
-      <section class="goals none">
+      <section class="goals">
         <div class="container">
           <div class="goals-header">
             <div class="goals-header-head">
@@ -124,7 +126,7 @@
         </div>
       </section>
 
-      <section class="slider none">
+      <section class="slider">
         <div class="container sld">
          
           <div class="slider-header">
@@ -176,7 +178,7 @@
         
       </section>
 
-      <section class="statistics none">
+      <section class="statistics">
         <div class="container pipa">
         <div class="stat-block">
           <div class="block-stat-1">
@@ -203,7 +205,7 @@
       </div>
       </section>
 
-      <section class="quote none">
+      <section class="quote">
         <div class="container qut">
           <div class="quote-info">
             <div class="quote-person">
@@ -221,46 +223,74 @@
         </div>
       </section>
 
-      <section class="payment"></section>
+      <section class="payment">
+        <div class="container pay">
+          <div class="payment-info">
+            <div class="payment-text">
+              <h4>Støt et effektivt velgørende formål</h4>
+            </div>
+            <div class="payment-form">
+              <div class="timeline">
+                <div class="onetime">Giv månedligt</div>
+                <div class="months">Giv en gang</div>
+              </div>
+              <div class="sum">
+                <div class="amount">500 kr</div>
+                <div class="amount">1000 kr</div>
+                <div class="amount">2.500 kr</div>
+              </div>
+              <div class="inputs">
+                <label><span data-val="0"> <input class="inp-txt" type="text" oninput="this.parentElement.dataset.val = this.value" ></span></label>
+                <select class="optionss" name="options" id="cars">
+                  <option value="1">Giv Effektivts anbefaling (GiveWell All Grunts Fund)</option>
+                  <option value="2">Giv Effektivts anbefaling (GiveWell All Grunts Fund)</option>
+                  <option value="3">Giv Effektivts anbefaling (GiveWell All Grunts Fund)</option>
+                  <option value="4">Giv Effektivts anbefaling (GiveWell All Grunts Fund)</option>
+                </select>
+              </div>
+              <div class="inf-pay">
+                <img class="inf-pay-img" src="./img/inf.png" alt="info">
+                <p>Din donation fordeles bedst muligt blandt humanitære organisationer, der potentielt har særdeles store effekter.</p>
+              </div>
+
+            <div class="checkbox">
+              <input class="check" type="checkbox" name="check" value="check">
+              <p>Jeg ønsker skattefradrag</p>
+            </div>
+            <div class="btn-payment">
+              <div class="stat-btn">
+                <a href="#" class="btn-stat">Næste
+                  <img src="./img/frame/small arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
-    <!-- <header class="header">
-      <div class="container-wide">
-        <div class="row space-between">
-          <div class="logo">GivEffektivt</div>
-          <div class="nav">
-            <ul>
-              <li><a href="#">Hvorfor Giv Effektivt</a></li>
-              <li><a href="#">Effektive formål</a></li>
-              <li><a href="#">Om os</a></li>
-            </ul>
-          </div>
-          <button class="button-stot">Støt nu</button>
+    <footer>
+      <div class="container fot">
+        <div class="ft-inf">
+          <p>info@giveffektivt.dk</p>
+          <p>40 33 10 97</p>
+          <p>CVR: 42490903</p>
+
         </div>
-        <div class="info">
-          <div class="container-wide">
-          <div class="text">
-            <h1>Gør 100 gange større forskel med dine donationer</h1>
-            <h2>Giv til verdens mest effektive velgørende formål</h2>
-            <button class="button-stot-2">Støt nu</button>
-          </div>
+        <div class="ft-inf">
+          <p>Tilgængelighedserklæring</p>
+          <p>Handelsbetingelser</p>
+          <p>Privatlivspolitik</p>
         </div>
+        <div class="ft-inf">
+          <p>Medlemskab</p>
+          <p>Fradrag</p>
+          <p>Testamente</p>
         </div>
-        <div class="three-sections">
-          <div class="section-1">
-            <div class="pic-1">1</div>
-            <div class="text-1">Vi anbefaler de formål, hvor din donation har størst effekt</div>
-          </div>
-          <div class="section-2">
-            <div class="pic-2">2</div>
-            <div class="text-2">Du vælger et formål eller lader os fordele din donation</div>
-          </div>
-          <div class="section-3">
-            <div class="pic-3">3</div>
-            <div class="text-3">Vi sender din donation videre (og dækker udgifterne)</div>
-          </div>
-        </div>
+
       </div>
-    </header> -->
+    </footer>
+
   </body>
 </html>

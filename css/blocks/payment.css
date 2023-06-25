@@ -1,0 +1,123 @@
+.pay {
+  padding: 80px 120px;
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.payment-info {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.timeline {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+.onetime,
+.months {
+  padding: 16px 32px;
+  border: 0.5px solid black;
+}
+
+.sum {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+
+.amount {
+  padding: 16px 32px;
+  border: 0.5px solid black;
+}
+
+.payment-text {
+  display: flex;
+  width: 411px;
+  flex-direction: column;
+  font-size: 64px;
+  font-family: Work Sans;
+  font-weight: 600;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.inp-txt {
+  display: flex;
+  width: 198px;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid black;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+
+.optionss {
+  width: 631px;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+  background-color: white;
+  border: 0.5px solid black;
+}
+
+select {
+  background-image: url(../../img/select.svg);
+  background-repeat: no-repeat;
+  appearance: none !important;
+  background-position: right 32px center;
+}
+
+.inf-pay {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-family: Work Sans;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.inf-pay-img {
+  width: 24px;
+  height: 24px;
+}
+.checkbox {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+.check {
+  width: 24px;
+  height: 24px;
+}
+
+.onetime:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.months:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+
+.amount:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
